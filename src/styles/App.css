@@ -1,0 +1,36 @@
+
+div.app{
+  /* font-family: Montserrat; */
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color: #ddd;
+  margin: 40px auto;
+  height: 90vh;
+}
+header{
+  
+  background-color: #aaa;
+  flex-basis: 12vh;
+  font-size: 24px;
+}
+main{
+  display: flex;
+  flex-grow: 1;
+  padding: 30px 0;
+}
+.main-info{
+  
+  width: 50%;
+  
+}
+.main-consol{
+  
+  width: 50%;
+  background-color: #fff;
+}
+aside{
+  position: absolute;
+  right: 10px;
+  background: red;
+}
